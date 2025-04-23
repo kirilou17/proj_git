@@ -1,0 +1,8 @@
+from Main import operator_sel
+
+while True:
+    operator_sel()
+    again = input("\nAgain? (x / y): ")
+    if again.lower() != 'y':
+        print("До свидания!")
+        break
